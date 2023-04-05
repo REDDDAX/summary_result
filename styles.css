@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+#container{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+width: 100%;
+
+}
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(240, 248, 255);
+    width: 600px;
+    box-shadow: rgb(187, 187, 187) 10px 10px 15px;
+    border-radius: 30px;
+}
+#container #left{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    height: 450px;
+    width: 300px;
+    border-radius: 30px;
+    
+}
+#container #left .circle{
+background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsl(241, 81%, 54%));
+width: 150px;
+height: 150px;
+border-radius: 75px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+font-size: 50px;
+font-weight: bold;
+
+}
+
+#container #left .circle .ofhundred{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(177, 173, 173);
+    
+}
+.your-result{
+    color: rgb(214, 212, 212);
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+    font-size: 18px;
+}
+.great{
+   position: relative;
+    top: 20px;
+    font-size: 25px;  
+}
+.paragraph{
+    color: rgb(214, 212, 212);
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.summary{
+position: relative;
+bottom: 20px;
+right: 68px;
+font-size: 20px;
+font-weight: bold;
+    }
+
+.reaction{
+    color: hsl(0, 100%, 67%);
+    background-color:hsla(0, 100%, 67%, 0.137);
+    display: flex;
+    
+    align-items: center;
+    
+}
+.memory{
+    color:  hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.062) ;
+}
+.verbal{
+    background-color:hsla(166, 100%, 37%, 0.075);
+    color:hsl(166, 100%, 37%);
+    
+}
+.visual{
+    color:hsl(234, 85%, 45%);
+    background-color: hsl(221, 100%, 96%);
+}
+.continue{
+    background-color: hsl(224, 30%, 27%);
+    height: 40px;
+    width: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+.hundred{
+    position:relative;
+    
+    color: rgb(177, 173, 173);
+}
+.hundred.one{
+    
+    left: 85px;
+}
+.hundred.two{
+left: 88px;
+}
+.hundred.three{
+left: 99px;
+}
+.hundred.four{
+  left: 102px;  
+}
+
+
+
+.number{
+    color: black;
+    position:relative;
+    
+}
+.number.one{
+   left: 80px; 
+}
+.number.two{
+    left: 83px;
+}
+.number.three{
+    left: 96px;
+}
+.number.four{
+    left: 98px;
+}
+
+
+.btn{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    border-radius: 7px;
+    padding: 0 10px;
+}
+
+#container #right{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    
+}
+
+@media screen and (max-width: 450px) {
+    body{
+        background-color: rgb(240, 248, 255);    }
+    
+    #container{
+        display: unset;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        
+        }
+        .background{
+            display: unset;
+            align-items: center;
+            justify-content: space-evenly;
+           
+            width: 600px;
+            height: 1000px;
+            border-radius: 30px;
+        }
+        #container #left{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+            height: 400px;
+            width: 100%;
+            border-radius:0 0 30px 30px ;
+            
+        }
+        .btn{
+            height: 50px;
+            width: 300px;
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+            border-radius: 7px;
+            padding: 0 10px;
+            padding-left: 20px;
+        }
+        .hundred.one{
+    
+            left: 170px;
+        }
+        .hundred.two{
+        left: 175px;
+        }
+        .hundred.three{
+        left: 187px;
+        }
+        .hundred.four{
+          left: 190px;  
+        }
+        
+        
+        
+    
+        .number.one{
+           left: 165px; 
+        }
+        .number.two{
+            left: 169px;
+        }
+        .number.three{
+            left: 184px;
+        }
+        .number.four{
+            left: 185px;
+        }
+        .continue{
+            background-color: hsl(224, 30%, 27%);
+            height: 50px;
+            width: 300px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 0;
+            border-radius: 20px;
+            padding: 0 10px;
+        }
+        .summary{
+            position: relative;
+            bottom: 18px;
+            right: 123px;
+            font-size: 20px;
+            font-weight: bold;
+                }
+}
